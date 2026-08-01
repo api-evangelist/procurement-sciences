@@ -1,9 +1,28 @@
 aid: procurement-sciences
 name: Procurement Sciences
-description: Procurement Sciences is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Procurement Sciences is an AI platform for government contractors that automates the full
+  capture-to-contract lifecycle — opportunity search and bid/no-bid analysis, competitive intelligence
+  and capture planning, compliant proposal generation and AI-assisted drafting, and post-award contract
+  and recompete management — across federal, state, and local markets. The company reports serving
+  3,000+ businesses, including nearly 50% of the Top 100 government contractors. It was surfaced as a
+  portfolio company of Battery Ventures and added to the API Evangelist network. Procurement Sciences
+  publishes no public developer API surface; this profile is enriched from its public website and its
+  security & compliance (Trust Portal) disclosures — SOC 2 Type II, CMMC Level 2, FedRAMP Moderate,
+  NIST 800-171, and FIPS 140-2.
 url: https://raw.githubusercontent.com/api-evangelist/procurement-sciences/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69242d310011dadcfc3c6653/692db9d3d9b5b3e6f011a5bb_og_img.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +31,51 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cloud Saas
+- Artificial Intelligence
+- Government
+- GovTech
+- GovCon
+- Public Sector
+- Procurement
+- Proposal Automation
+- Capture Management
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/procurement-sciences-domain-security.yml
+- type: Website
+  url: https://www.procurementsciences.com/
+- type: Documentation
+  url: https://www.procurementsciences.com/platform
+- type: Pricing
+  url: https://www.procurementsciences.com/request-pricing
+- type: Blog
+  url: https://www.procurementsciences.com/blog
+- type: Support
+  url: https://www.procurementsciences.com/contact
+- type: TermsOfService
+  url: https://www.procurementsciences.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.procurementsciences.com/privacy-policy
+- type: TrustCenter
+  url: security/procurement-sciences-trust-center.yml
+- type: Compliance
+  url: https://www.procurementsciences.com/platform/security
+- type: Security
+  url: https://www.procurementsciences.com/platform/security
+- type: LLMsTxt
+  url: llms/procurement-sciences-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
